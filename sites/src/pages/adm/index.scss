@@ -8,7 +8,7 @@ header {
 
 .cont-1 {
     display:flex;
-    flex-direction: rows;
+    flex-direction: row;
     justify-content:space-between;
 
 
@@ -53,9 +53,11 @@ main {
     text-align: center;
     align-self: center;
     width: 17.5em;
-    padding: 14px;
+    padding: 4px;
     padding-bottom: 30px;
-    height: 10px;
+    padding-top: 15px;
+    font-weight: bold;
+    height: 1px;
     font-size: 1.2em;
     font-family: Arial;
 }
@@ -65,7 +67,7 @@ main {
     flex-direction: column;
     background-color: #fff;
     border-radius: 1em;
-    width: 110em;
+    width: 100em;
     height: 37em;
 
 
@@ -132,19 +134,19 @@ table {
 
 
 .tbx-1 {
-    width: 22em;    
+    width: 30em;    
 }
 
 .tbx-2 {
-    width: 24em;
+    width: 10em;
 }
 
 .tbx-3 {
-    width: 44em;
+    width: 50em;
     
 }
 .tbx-5 {
-    width: 20em;
+    width: 40em;
 }
 
 }
@@ -162,7 +164,7 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
     background-color: rgba(96, 96, 96, 1);
-    height: 14vh;
+    height: vh;
 }
 
 .zx-1 {

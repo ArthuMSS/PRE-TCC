@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './index.scss';
 
 export default function Index() {
@@ -140,8 +142,11 @@ export default function Index() {
 </main>
 
 <footer>
+        <Link to='/landing' >
 
-  <img className="zx-1" src='/images/casa.png' alt=""/>
+        <img className="zx-1" src='/images/casa.png' alt=""/>
+
+        </Link>
 
   <button className="zx-2">
        +  Adicionar Novo 

@@ -5,9 +5,9 @@ import './App.css'
 function App() {
     return (
         <div>
-            <h1> Salve meus parcero</h1>
+            <h1>*landing*</h1>
             
-            <Link className='' to= './adm'>Admin</Link>
+            <Link className='' to= './adm'>Parte adm</Link>
         </div>
 
         
